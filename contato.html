@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Geologica:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <img class="logo" alt="logo" src="assets/logo.svg">
+            <ul>
+                <li><a class="link" href="index.html">PÁGINA INICIAL</a></li>
+                <hr class="barra"/>
+                <li><a class="link" href="sobre.html">SOBRE A CLÍNICA</a></li>
+                <hr class="barra"/>
+                <li><a class="link" href="horario.html">HORÁRIO DE ATENDIMENTO</a></li>
+                <hr class="barra"/>
+                <li><a class="link" href="contato.html">CONTATO</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <a href="index.html">
+                <span class="logo-text">VetMed</span>
+
+                </a>
+            </div>
+    
+            <div class="content">
+
+                <h1>Entre em contato conosco</h1>  
+                <div class="container">
+                    <form action="">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="fname">Nome:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="pnome" name="primeironome" placeholder="Seu primeiro nome...">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Sobrenome:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="text" id="snome" name="sobrenome" placeholder="Seu sobrenome...">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Celular/Telefone:</label>
+                        </div>
+                        <div class="col-75">
+                          <input type="number" id="cel" name="celular" placeholder="(XX) X XXXX-XXXX...">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="necess">Qual a necessidade do seu pet?</label>
+                        </div>
+                        <div class="col-75">
+                          <select id="necess" name="necessidade">
+                            <option value="" disabled selected>Selecione a sua necessidade:</option>
+                            <option value="banhoetosa">Banho e tosa</option>
+                            <option value="checkup">Check-up de saúde</option>
+                            <option value="cuidadomed">Cuidados médicos</option>
+                            <option value="adocao">Anunciar adoção</option>
+                            <option value="hotelpet">Hotel Pet (Lar temporário)</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject">Se quiser, descreva mais profundamente o que você e seu pet precisam:</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Deixe sua mensagem aqui... Diga se seu pet precisa de carona e etc..." style="height:200px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Enviar">
+                      </div>
+                    </form>
+                  </div>
+                  <h1>Nossa Localização:</h1>
+                    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991626117217!2d2.291901012658211!3d48.8583700712126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTorre%20Eiffel!5e0!3m2!1spt-BR!2sbr!4v1685988283944!5m2!1spt-BR!2sbr" width="1600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    
+            <div class="footer">
+                © 2023 VetMed. Todos os direitos reservados. Feito por Airon Lourenço.
+                <br>
+                <br>
+                <a alt="whatsapp" href="#"><img src="assets/whatsapp.svg"></a>
+                <a alt="linkedin" href="#"><img src="assets/linkedin.svg"></a>
+                <a alt="github" href="#"><img src="assets/github.svg"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
